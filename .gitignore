@@ -1,0 +1,101 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# ===================================================================
+# Arquivos de IDE (IntelliJ IDEA)
+# ===================================================================
+# Diretório de configuração do projeto. Contém configurações locais do usuário.
+/.idea/
+
+# Arquivos de módulo gerados pelo IntelliJ. São recriados a partir do pom.xml ou build.gradle.
+*.iml
+*.iws
+
+# Diretório de compilação do IntelliJ.
+/out/
+
+
+# ===================================================================
+# Arquivos de Build (Maven e Gradle)
+# ===================================================================
+# Diretório de build do Maven.
+/target/
+
+# Diretório de build do Gradle.
+/build/
+
+# Cache e arquivos do daemon do Gradle.
+/.gradle/
+
+# Executáveis e JAR do Gradle Wrapper devem ser versionados para builds consistentes.
+# Portanto, negamos as regras de exclusão para eles.
+!/gradle/wrapper/gradle-wrapper.jar
+!/gradlew
+!/gradlew.bat
+
+
+# ===================================================================
+# Artefatos de Build e Dependências
+# ===================================================================
+# Arquivos JAR, WAR e EAR não devem ser versionados, pois são gerados a partir do código fonte.
+*.jar
+*.war
+*.ear
+
+
+# ===================================================================
+# Logs e Arquivos de Execução
+# ===================================================================
+# Arquivos de log gerados pela aplicação.
+*.log
+logs/
+
+
+# ===================================================================
+# Arquivos específicos do Sistema Operacional
+# ===================================================================
+# Arquivos de metadados do macOS e Windows.
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+
+# ===================================================================
+# Arquivos de Configuração Local (Opcional, mas recomendado)
+# ===================================================================
+# Ignore perfis de configuração locais que possam conter senhas ou dados sensíveis.
+application-local.properties
+application-local.yml
+
+
